@@ -1132,6 +1132,7 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
 @media (max-width: 500px) {
   .container {
     width: 100%;
+    padding-inline: 10px;
   }
   header#header {
     padding-inline: 10px;
@@ -1171,7 +1172,7 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     padding-inline: 3rem;
   }
   header#header nav.container .dropdown {
-    margin-left: 0rem;
+    margin-left: 2rem;
   }
   header#header nav.container .table-searching {
     margin-right: 0rem;

@@ -573,6 +573,7 @@
 @media (max-width: 500px) {
 	.container {
 		width: 100%;
+		padding-inline: 10px;
 	}
 	header#header{
 		padding-inline: 10px;
@@ -603,7 +604,7 @@
 		padding-inline: 10px;
     nav.container {
 			.dropdown {
-				margin-left: 0rem;
+				margin-left: 2rem;
 			}
 			.table-searching {
 				margin-right: 0rem;
