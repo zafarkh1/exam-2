@@ -976,6 +976,9 @@ section#showcase .container .showcase-btn .blue-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-inline: 3rem;
   }
   header#header nav.container .left.flex .search {
@@ -1163,6 +1166,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-inline: 3rem;
   }
   header#header nav.container .dropdown {
@@ -1263,6 +1269,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     gap: 2rem;
     padding: 0rem;
   }
