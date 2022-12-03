@@ -1,26 +1,26 @@
 header#header {
-	// background-color: red;
-	padding-block: 3rem;
-	padding-inline: 5rem;
-nav.container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	ul {
-		gap: 2rem;
-	}
-	.left {
-		gap: 2.5rem;
-		.search {
-			padding: 1rem;
-			border-radius: 20px;
-			background-color: $white;
-			input {
-				border: 0px solid yellow;
-				margin-left: 8px;
-			}
-		}
-	}
-}
+  // background-color: red;
+  padding-block: 3rem;
+  padding-inline: 5rem;
+  nav.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    ul {
+      gap: 2rem;
+    }
+    .left {
+      gap: 2.5rem;
+      .search {
+        padding: 1rem;
+        border-radius: 20px;
+        background-color: $white;
+        input {
+          border: 0px solid yellow;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
 }
