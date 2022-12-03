@@ -1152,7 +1152,7 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
 }
 @media (max-width: 400px) {
   .container {
-    width: 100%;
+    width: 400px;
     padding-inline: 10px;
   }
   header#header nav.container {
@@ -1248,5 +1248,24 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    width: 100%;
+    padding-inline: 10px;
+  }
+  header#header nav.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 2rem;
+    padding: 0rem;
+  }
+  header#header nav.container p {
+    width: 350px;
   }
 }/*# sourceMappingURL=main.css.map */
