@@ -40,6 +40,15 @@
   .container {
     width: 900px;
   }
+	  header#header {
+    .container {
+      .left {
+        .search {
+          display: none;
+        }
+      }
+    }
+  }
   section#seller {
     .container {
       .brands {
@@ -532,6 +541,112 @@
           }
           input {
             width: 350px;
+            padding-left: 0.5rem;
+            border-radius: 10px;
+            padding: 1rem;
+          }
+        }
+      }
+      .footer-nav {
+        flex-direction: column;
+        // align-items: center;
+        gap: 2rem;
+        ul {
+          justify-content: space-between;
+        }
+        .icons {
+          justify-content: center;
+        }
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 13px;
+        .neymar {
+          order: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 100%;
+	}
+  section#knowledge {
+    .container {
+      .grid-knowledge {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
+        .card-knowledge.messi {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+	.container {
+		width: 100%;
+		padding-inline: 10px;
+	}
+
+  header#header {
+    nav.container {
+			.dropdown {
+				margin-left: 0rem;
+			}
+			.table-searching {
+				margin-right: 0rem;
+			}
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 3rem;
+      .left.flex {
+        .search {
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: $white;
+          input {
+            border: 0px solid yellow;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+
+	  footer#footer {
+    padding: 10px;
+    .container {
+      .form {
+				max-width: 0 auto;
+        flex-direction: column;
+        width: 360px;
+        padding: 1rem;
+        gap: 1rem;
+        h4 {
+          width: 300px;
+          font-size: 16px;
+          line-height: 1.2rem;
+          margin-left: -4rem;
+        }
+        .inp-but {
+          padding: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          button.blue-btn {
+            border-radius: 7px;
+            padding: 1rem;
+            width: 330px;
+          }
+          input {
+            width: 330px;
             padding-left: 0.5rem;
             border-radius: 10px;
             padding: 1rem;
