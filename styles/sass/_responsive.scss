@@ -419,7 +419,7 @@
   header#header {
     nav.container {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       padding-inline: 3rem;
       .left.flex {
         .search {
@@ -610,7 +610,7 @@
 				margin-right: 0rem;
 			}
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
       padding-inline: 3rem;
       .left.flex {
         .search {
@@ -690,7 +690,7 @@
 		padding-inline: 10px;
 		nav.container {
 			display: flex;
-			justify-content: space-between;
+			// justify-content: space-between;
 			gap: 2rem;
 			padding: 0rem;
 			p {
