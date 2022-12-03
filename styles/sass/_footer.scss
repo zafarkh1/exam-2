@@ -1,0 +1,47 @@
+footer#footer {
+ background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+	padding: 3rem 5rem;
+	padding-bottom: 1rem;
+	.container {
+		gap: 3rem;
+		.form {
+			width: 1200px;
+			background-color: $darkblue;
+			padding: 1.5rem;
+			border-radius: 10px;
+			h4 {
+				text-transform: capitalize;
+				width: 400px;
+				line-height: 1.9rem;
+				font-size: 24px;
+				color: $white;
+			}
+			.inp-but {
+				padding: 1rem;
+				background-color: $white;
+				border-radius: 10px;
+				gap: 0.5rem;
+				border: $grey;
+				button.blue-btn {
+					border-radius: 10px;
+					padding: 15px 15px;
+				}
+				input {
+					width: 550px;
+					padding-left: 1rem;
+					border-radius: 10px;
+				}
+			}
+		}
+		.line {
+			border-bottom: 1px solid $darkblue;
+		}
+		.footer-nav {
+			.icons {
+				i {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+}

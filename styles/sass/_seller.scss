@@ -1,0 +1,25 @@
+section#seller {
+  // background-color: red;
+  padding-block: 3rem;
+  .container {
+  position: relative;
+    a {
+      i {
+        margin-left: 10px;
+        font-size: 10px;
+      }
+      position: absolute;
+      top: 1rem;
+      right: 0rem;
+    }
+		span {
+			h4 {
+				margin-left: 10px;
+			}
+		}
+		.brands {
+			margin-top: 3rem;
+			margin-left: 1rem;
+		}
+  }
+}

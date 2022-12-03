@@ -1,0 +1,24 @@
+section#adoption {
+  .container {
+    padding-inline: 2rem;
+    // background-color: $darkblue;
+
+    background: url(../../Monito-images/adoption1.png) no-repeat top left,
+      url(../../Monito-images/adoption2.png) no-repeat bottom right, $orange;
+    .portion {
+      .adoption-btn {
+        gap: 1rem;
+      }
+      .transparent-btn {
+        i {
+          margin-left: 10px;
+        }
+      }
+      p {
+        text-align: start;
+        width: 400px;
+        margin-block: 25px;
+      }
+    }
+  }
+}

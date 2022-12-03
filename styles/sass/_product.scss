@@ -1,0 +1,48 @@
+section#products {
+  // background-color: red;
+  padding-block: 3rem;
+  .container {
+  position: relative;
+    h4 {
+      text-transform: capitalize;
+      margin-top: 5px;
+    }
+    a {
+      i {
+        margin-left: 10px;
+        font-size: 10px;
+      }
+      position: absolute;
+      top: 1rem;
+      right: 0rem;
+    }
+    .grid-products {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      .product {
+        padding: 5px;
+        background-color: $light;
+        border-radius: 5px;
+        gap: 10px;
+        padding-bottom: 15px;
+
+        p {
+          font-size: 0.8rem;
+          // margin-block: 7px;
+        }
+        img {
+          border-radius: 10px;
+        }
+        .gift {
+          padding: 10px 20px;
+          background-color: $mon-yellow;
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

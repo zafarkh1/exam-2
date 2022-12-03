@@ -1,0 +1,22 @@
+section#showcase {
+  // background-color: yellow;
+  .container {
+    .portion {
+      p {
+        margin-block: 2rem;
+      }
+      .showcase-btn {
+        gap: 1rem;
+      }
+      img {
+        max-width: 110%;
+        max-height: 130%;
+      }
+      .transparent-btn {
+        i {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

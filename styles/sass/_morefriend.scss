@@ -1,0 +1,24 @@
+section#morefriend {
+  .container {
+		border-radius: 20px;
+		padding-inline: 2rem;
+	background-color: $darkblue;
+
+		background: url(../../Monito-images/morefriend1.png) no-repeat bottom left, url(../../Monito-images/morefriend2.png) no-repeat top right, $darkblue;
+    .portion {
+			.morefriend-btn {
+				gap: 1rem;
+			}
+      .transparent-btn {
+        i {
+          margin-left: 10px;
+        }
+      }
+			p {
+				text-align: end;
+				width: 500px;
+				margin-block: 25px;
+			}
+    }
+  }
+}

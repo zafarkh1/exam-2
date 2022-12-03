@@ -1,0 +1,41 @@
+section#knowledge {
+  // background-color: red;
+  padding-block: 3rem;
+  .container {
+  position: relative;
+    h4 {
+      text-transform: capitalize;
+      margin-top: 5px;
+    }
+    a.transparent-btn {
+      i {
+        margin-left: 10px;
+        font-size: 10px;
+      }
+      position: absolute;
+      top: 1rem;
+      right: 0rem;
+    }
+    .grid-knowledge {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      .card-knowledge {
+        padding: 10px;
+        background-color: $light;
+        border-radius: 5px;
+        gap: 20px;
+				a {
+					width: 150px;
+				}
+        img {
+          border-radius: 10px;
+        }
+				h5 {
+					line-height: 1.5rem;
+				}
+      }
+    }
+  }
+}

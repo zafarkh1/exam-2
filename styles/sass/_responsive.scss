@@ -1,0 +1,562 @@
+@media (max-width: 1250px) {
+  .container {
+    width: 1000px;
+  }
+  section#showcase {
+    padding-bottom: 2rem;
+    .container {
+      .portion {
+        img {
+          max-width: 110%;
+          max-height: 130%;
+        }
+      }
+    }
+  }
+
+  footer#footer {
+    .container {
+      .form {
+        width: 1000px;
+        h4 {
+          text-transform: capitalize;
+          width: 300px;
+          line-height: 1.9rem;
+          font-size: 20px;
+        }
+        .inp-but {
+          input {
+            width: 450px;
+            padding-left: 1rem;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 900px;
+  }
+  section#seller {
+    .container {
+      .brands {
+        .ban {
+          display: none;
+        }
+      }
+    }
+  }
+
+  footer#footer {
+    .container {
+      .form {
+        width: 900px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+  header#header {
+    .container {
+      .left {
+        .search {
+          display: none;
+        }
+      }
+    }
+  }
+  section#morefriend {
+    display: none;
+  }
+  footer#footer {
+    .container {
+      .form {
+        width: 800px;
+        padding: 1rem;
+        h4 {
+          width: 300px;
+          font-size: 16px;
+          color: $white;
+          line-height: 1.2rem;
+        }
+        .inp-but {
+          padding: 0.5rem;
+          button.blue-btn {
+            border-radius: 7px;
+            padding: 7px 7px;
+          }
+          input {
+            width: 300px;
+            padding-left: 0.5rem;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+  header#header {
+    .container {
+      ul.flex {
+        display: none;
+      }
+      .left {
+        display: none;
+      }
+    }
+  }
+  section#showcase {
+    padding-bottom: 0;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      .portion {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // text-align: left;
+        p {
+          width: 500px;
+          margin-inline: 0;
+        }
+        h1 {
+          font-size: 3.3rem;
+        }
+        h2 {
+          font-size: 2.5rem;
+        }
+      }
+      .showcase-btn {
+        .transparent-btn,
+        .blue-btn {
+          padding: 1rem 2.5rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  section#pets {
+    .container {
+      .grid-puppy {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+    }
+  }
+  section#morefriend {
+    display: block;
+    .container {
+      padding-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      padding-inline: 2rem;
+      background-color: $darkblue;
+
+      background: url(../../Monito-images/morefriend1.png) no-repeat bottom left,
+        url(../../Monito-images/morefriend2.png) no-repeat top right, $darkblue;
+      h2 {
+        font-size: 2.5rem;
+        text-transform: capitalize;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 1.6rem;
+        text-transform: capitalize;
+      }
+      .portion.girl {
+        order: 1;
+      }
+
+      .portion.bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p {
+          text-align: center;
+          width: 500px;
+          margin-block: 25px;
+        }
+      }
+    }
+  }
+  section#products {
+    .container {
+      .grid-products {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+  section#seller {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
+  section#knowledge {
+    .container {
+      .grid-knowledge {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 7rem;
+        .card-knowledge.messi {
+          display: none;
+        }
+      }
+    }
+  }
+  footer#footer {
+    .container {
+      .form {
+        flex-direction: column;
+        width: 700px;
+        padding: 1rem;
+        gap: 1rem;
+        h4 {
+          width: 700px;
+          font-size: 16px;
+          line-height: 1.2rem;
+          margin-left: 4.2rem;
+        }
+        .inp-but {
+          padding: 0.5rem;
+          button.blue-btn {
+            border-radius: 7px;
+            padding: 10px 10px;
+            width: 300px;
+          }
+          input {
+            width: 300px;
+            padding-left: 0.5rem;
+            border-radius: 10px;
+          }
+        }
+      }
+      .footer-nav {
+        flex-direction: column;
+        // align-items: center;
+        gap: 2rem;
+        ul {
+          justify-content: space-between;
+        }
+        .icons {
+          justify-content: center;
+        }
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 13px;
+        .neymar {
+          order: 1;
+        }
+      }
+    }
+  }
+  .wrapper {
+    header#header {
+      .container {
+        .dropdown {
+          display: block;
+          margin-left: -8rem;
+          .dropdown-menu {
+            background-color: $darkblue;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            min-width: 200px;
+            transition: all ease-in-out 0.3s;
+            transform: translateX(-100%);
+            ul {
+              color: $white;
+              li {
+                margin-bottom: 10px;
+                &:hover {
+                  color: $mon-yellow;
+                }
+              }
+              label {
+                display: block;
+                text-align: right;
+              }
+            }
+          }
+          input:checked + .dropdown-menu {
+            transform: translateX(0);
+          }
+        }
+        .table-searching {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 600px;
+  }
+  .wrapper {
+    header#header {
+      .container {
+        .dropdown {
+          margin-left: -5rem;
+        }
+      }
+    }
+  }
+  section#knowledge {
+    .container {
+      .grid-knowledge {
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 3rem;
+        .card-knowledge.messi {
+          display: none;
+        }
+      }
+    }
+  }
+  footer#footer {
+    .container {
+      .form {
+        flex-direction: column;
+        width: 600px;
+        padding: 1rem;
+        gap: 1rem;
+        h4 {
+          width: 700px;
+          font-size: 16px;
+          line-height: 1.2rem;
+          margin-left: 11rem;
+        }
+        .inp-but {
+          padding: 0.5rem;
+          button.blue-btn {
+            border-radius: 7px;
+            padding: 10px 10px;
+            width: 250px;
+          }
+          input {
+            width: 250px;
+            padding-left: 0.5rem;
+            border-radius: 10px;
+          }
+        }
+      }
+      .footer-nav {
+        flex-direction: column;
+        // align-items: center;
+        gap: 2rem;
+        ul {
+          justify-content: space-between;
+        }
+        .icons {
+          justify-content: center;
+        }
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 13px;
+        .neymar {
+          order: 1;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 420px;
+  }
+  .wrapper {
+    header#header {
+      .container {
+        .dropdown {
+          margin-left: -4rem;
+        }
+      }
+    }
+  }
+  header#header {
+    nav.container {
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 3rem;
+      .left.flex {
+        .search {
+          padding: 1rem;
+          border-radius: 20px;
+          background-color: $white;
+          input {
+            border: 0px solid yellow;
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
+  section#showcase {
+    .container {
+      // display: flex;
+      // flex-direction: column;
+      // align-items: flex-start;
+      .portion {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h1 {
+          font-size: 2.8rem;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          width: 450px;
+        }
+        .showcase-btn {
+          .transparent-btn,
+          .blue-btn {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  section#morefriend {
+    .container {
+      background: url(../../Monito-images/morefriend1.png) no-repeat bottom,
+        url(../../Monito-images/morefriend2.png) no-repeat center top, $darkblue;
+      .portion.bottom {
+        h3 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        p {
+          text-align: center;
+          width: 370px;
+          margin-block: 10px;
+          font-size: 0.8rem;
+        }
+        .morefriend-btn {
+          .transparent-btn,
+          .blue-btn {
+            padding: 0.5rem 1.5rem;
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+  section#pets {
+    .container {
+      a {
+        display: none;
+      }
+    }
+  }
+  section#products {
+    display: none;
+  }
+  section#knowledge {
+    .container {
+      a.transparent-btn {
+        display: none;
+      }
+      .grid-knowledge {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+        .card-knowledge.messi {
+          display: block;
+        }
+      }
+    }
+  }
+  footer#footer {
+    padding: 1rem 1rem;
+    .container {
+      .form {
+        flex-direction: column;
+        width: 420px;
+        padding: 1rem;
+        gap: 1rem;
+        h4 {
+          width: 300px;
+          font-size: 16px;
+          line-height: 1.2rem;
+          margin-left: -4rem;
+        }
+        .inp-but {
+          padding: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          button.blue-btn {
+            border-radius: 7px;
+            padding: 1rem;
+            width: 350px;
+          }
+          input {
+            width: 350px;
+            padding-left: 0.5rem;
+            border-radius: 10px;
+            padding: 1rem;
+          }
+        }
+      }
+      .footer-nav {
+        flex-direction: column;
+        // align-items: center;
+        gap: 2rem;
+        ul {
+          justify-content: space-between;
+        }
+        .icons {
+          justify-content: center;
+        }
+      }
+      .footer-bottom {
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 13px;
+        .neymar {
+          order: 1;
+        }
+      }
+    }
+  }
+}
