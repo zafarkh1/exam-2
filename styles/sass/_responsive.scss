@@ -574,6 +574,9 @@
 	.container {
 		width: 100%;
 	}
+	header#header{
+		padding-inline: 10px;
+	}
   section#knowledge {
     .container {
       .grid-knowledge {
@@ -597,6 +600,7 @@
 	}
 
   header#header {
+		padding-inline: 10px;
     nav.container {
 			.dropdown {
 				margin-left: 0rem;
@@ -682,6 +686,7 @@
 		padding-inline: 10px;
 	}
 	header#header {
+		padding-inline: 10px;
 		nav.container {
 			display: flex;
 			justify-content: space-between;
