@@ -34,6 +34,12 @@
       }
     }
   }
+	section#morefriend {
+		display: none;
+	}
+	section#adoption {
+		display: none;
+	}
 }
 
 @media (max-width: 1100px) {
@@ -66,6 +72,12 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
+	section#adoption {
+		display: none;
+	}
 }
 
 @media (max-width: 1000px) {
@@ -110,6 +122,12 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
+	section#adoption {
+		display: none;
+	}
 }
 
 @media (max-width: 900px) {
@@ -324,6 +342,12 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
+	section#adoption {
+		display: none;
+	}
 }
 
 @media (max-width: 800px) {
@@ -353,6 +377,12 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
+	section#adoption{
+		display: none;
+	}
   footer#footer {
     .container {
       .form {
@@ -568,6 +598,9 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
 }
 
 @media (max-width: 500px) {
@@ -577,6 +610,9 @@
 	}
 	header#header{
 		padding-inline: 10px;
+	}
+		section#morefriend {
+		display: none;
 	}
   section#knowledge {
     .container {
@@ -625,6 +661,9 @@
       }
     }
   }
+		section#morefriend {
+		display: none;
+	}
 
 	  footer#footer {
     padding: 10px;
@@ -694,8 +733,11 @@
 			gap: 2rem;
 			padding: 0rem;
 			p {
-				width: 350px;
+				width: 300px;
 			}
 		}
+	}
+	section#morefriend {
+		display: none;
 	}
 }

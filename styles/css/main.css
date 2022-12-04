@@ -653,6 +653,12 @@ footer#footer .container .footer-nav .icons i {
     padding-left: 1rem;
     border-radius: 10px;
   }
+  section#morefriend {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
 }
 @media (max-width: 1100px) {
   .container {
@@ -666,6 +672,12 @@ footer#footer .container .footer-nav .icons i {
   }
   footer#footer .container .form {
     width: 900px;
+  }
+  section#morefriend {
+    display: none;
+  }
+  section#adoption {
+    display: none;
   }
 }
 @media (max-width: 1000px) {
@@ -699,6 +711,12 @@ footer#footer .container .footer-nav .icons i {
     width: 300px;
     padding-left: 0.5rem;
     border-radius: 10px;
+  }
+  section#morefriend {
+    display: none;
+  }
+  section#adoption {
+    display: none;
   }
 }
 @media (max-width: 900px) {
@@ -937,6 +955,12 @@ section#showcase .container .showcase-btn .blue-btn {
   .wrapper header#header .container .table-searching {
     display: block;
   }
+  section#morefriend {
+    display: none;
+  }
+  section#adoption {
+    display: none;
+  }
 }
 @media (max-width: 800px) {
   .container {
@@ -959,6 +983,12 @@ section#showcase .container .showcase-btn .blue-btn {
     margin-left: 3rem;
   }
   section#knowledge .container .grid-knowledge .card-knowledge.messi {
+    display: none;
+  }
+  section#morefriend {
+    display: none;
+  }
+  section#adoption {
     display: none;
   }
   footer#footer .container .form {
@@ -1180,6 +1210,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
         -ms-flex-order: 1;
             order: 1;
   }
+  section#morefriend {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .container {
@@ -1188,6 +1221,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   }
   header#header {
     padding-inline: 10px;
+  }
+  section#morefriend {
+    display: none;
   }
   section#knowledge .container .grid-knowledge {
     width: 400px;
@@ -1234,6 +1270,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   header#header nav.container .left.flex .search input {
     border: 0px solid yellow;
     margin-left: 8px;
+  }
+  section#morefriend {
+    display: none;
   }
   footer#footer {
     padding: 10px;
@@ -1322,7 +1361,10 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     padding: 0rem;
   }
   header#header nav.container p {
-    width: 350px;
+    width: 300px;
+  }
+  section#morefriend {
+    display: none;
   }
 }
 .loading {
