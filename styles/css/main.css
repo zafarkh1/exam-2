@@ -1091,7 +1091,7 @@ section#showcase .container .showcase-btn .blue-btn {
     font-size: 2rem;
   }
   section#showcase .container .portion p {
-    width: 450px;
+    width: 430px;
   }
   section#showcase .container .portion .showcase-btn .transparent-btn,
 section#showcase .container .portion .showcase-btn .blue-btn {
@@ -1222,6 +1222,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   header#header {
     padding-inline: 10px;
   }
+  section#showcase .container .portion p {
+    width: 310px;
+  }
   section#morefriend {
     display: none;
   }
@@ -1273,6 +1276,9 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   }
   section#morefriend {
     display: none;
+  }
+  section#showcase .container .portion p {
+    width: 300px;
   }
   footer#footer {
     padding: 10px;
@@ -1350,21 +1356,70 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     width: 100%;
     padding-inline: 10px;
   }
-  header#header {
-    padding-inline: 10px;
-  }
   header#header nav.container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 2rem;
-    padding: 0rem;
-  }
-  header#header nav.container p {
-    width: 300px;
   }
   section#morefriend {
     display: none;
+  }
+  section#showcase .container .portion p {
+    width: 300px;
+  }
+  section#knowledge {
+    padding-left: 0px;
+    width: 370px;
+  }
+  section#knowledge .container {
+    width: 360px;
+    padding-left: 0px;
+  }
+  section#knowledge .container .grid-knowledge {
+    margin-left: -1rem;
+    padding-left: 0rem;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol p {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi h5 {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi p {
+    width: 340px;
+  }
+  footer#footer {
+    width: 370px;
+  }
+  footer#footer .container .form {
+    width: 340px;
+  }
+  footer#footer .container .form h4 {
+    margin-left: 0rem;
+  }
+  footer#footer .container .form .inp-but {
+    width: 320px;
+  }
+  footer#footer .container .form .inp-but input, footer#footer .container .form .inp-but .blue-btn {
+    width: 300px;
+  }
+  footer#footer .container .form .inp-but button.blue-btn {
+    padding: 14px;
+    width: 300px;
   }
 }
 .loading {
