@@ -1,0 +1,32 @@
+.loading {
+	background-color: $mon-yellow;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	animation: opacity 1s ease-in-out 1 forwards;
+	animation-delay: 10s;
+	.loading-child {
+		animation: loading 4s linear 3 forwards;
+		animation-delay: 1s;
+	}
+}
+
+@keyframes loading {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+@keyframes opacity {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}

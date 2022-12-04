@@ -1,24 +1,52 @@
 section#morefriend {
   .container {
-		border-radius: 20px;
-		padding-inline: 2rem;
-	background-color: $darkblue;
+    position: relative;
 
-		background: url(../../Monito-images/morefriend1.png) no-repeat bottom left, url(../../Monito-images/morefriend2.png) no-repeat top right, $darkblue;
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0px;
+      left: 4px;
+      width: 700px;
+      // height: 100px;
+      z-index: -11;
+      background: url(../../Monito-images/morefriend1.png) no-repeat right 100%, $darkblue;
+    }
+    border-radius: 20px;
+    padding-inline: 2rem;
     .portion {
-			.morefriend-btn {
-				gap: 1rem;
-			}
+      .morefriend-btn {
+        gap: 1rem;
+      }
       .transparent-btn {
         i {
           margin-left: 10px;
         }
       }
-			p {
-				text-align: end;
-				width: 500px;
-				margin-block: 25px;
-			}
+      p {
+        text-align: end;
+        width: 500px;
+        margin-block: 25px;
+      }
     }
   }
+}
+
+section#morefriend {
+	.container {
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 500px;
+      width: 700px;
+      z-index: -10;
+      background: url(../../Monito-images/morefriend2.png) no-repeat right 100%, $darkblue;
+    }
+	}
 }

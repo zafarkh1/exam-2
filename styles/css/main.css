@@ -382,10 +382,20 @@ section#pets .container .grid-puppy .puppy img {
 }
 
 section#morefriend .container {
+  position: relative;
   border-radius: 20px;
   padding-inline: 2rem;
-  background-color: #003459;
-  background: url(../../Monito-images/morefriend1.png) no-repeat bottom left, url(../../Monito-images/morefriend2.png) no-repeat top right, #003459;
+}
+section#morefriend .container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 4px;
+  width: 700px;
+  z-index: -11;
+  background: url(../../Monito-images/morefriend1.png) no-repeat right 100%, #003459;
 }
 section#morefriend .container .portion .morefriend-btn {
   gap: 1rem;
@@ -397,6 +407,19 @@ section#morefriend .container .portion p {
   text-align: end;
   width: 500px;
   margin-block: 25px;
+}
+
+section#morefriend .container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 500px;
+  width: 700px;
+  z-index: -10;
+  background: url(../../Monito-images/morefriend2.png) no-repeat right 100%, #003459;
 }
 
 section#products {
@@ -474,10 +497,14 @@ section#seller .container .brands {
 
 section#adoption .container {
   padding-inline: 2rem;
-  background: url(../../Monito-images/adoption1.png) no-repeat top left, url(../../Monito-images/adoption2.png) no-repeat bottom right, #FF912C;
 }
 section#adoption .container .portion .adoption-btn {
   gap: 1rem;
+}
+section#adoption .container .portion .adoption-btn .transparent-btn {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
 }
 section#adoption .container .portion .transparent-btn i {
   margin-left: 10px;
@@ -486,6 +513,34 @@ section#adoption .container .portion p {
   text-align: start;
   width: 400px;
   margin-block: 25px;
+}
+
+section#adoption .container {
+  position: relative;
+}
+section#adoption .container::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 500px;
+  left: 0px;
+  width: 700px;
+  z-index: -10;
+  background: url(../../Monito-images/adoption1.png) no-repeat left 100%, #F7DBA7;
+}
+section#adoption .container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  right: 0;
+  left: 530px;
+  width: 700px;
+  z-index: -11;
+  background: url(../../Monito-images/adoption2.png) no-repeat right 100%, #F7DBA7;
 }
 
 section#knowledge {
@@ -1268,5 +1323,67 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   }
   header#header nav.container p {
     width: 350px;
+  }
+}
+.loading {
+  background-color: #F7DBA7;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: opacity 1s ease-in-out 1 forwards;
+          animation: opacity 1s ease-in-out 1 forwards;
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+.loading .loading-child {
+  -webkit-animation: loading 4s linear 3 forwards;
+          animation: loading 4s linear 3 forwards;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes loading {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes loading {
+  from {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
   }
 }/*# sourceMappingURL=main.css.map */

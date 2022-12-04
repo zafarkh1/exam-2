@@ -3,11 +3,14 @@ section#adoption {
     padding-inline: 2rem;
     // background-color: $darkblue;
 
-    background: url(../../Monito-images/adoption1.png) no-repeat top left,
-      url(../../Monito-images/adoption2.png) no-repeat bottom right, $orange;
+    // background: url(../../Monito-images/adoption1.png) no-repeat top left,
+    //   url(../../Monito-images/adoption2.png) no-repeat bottom right, $orange;
     .portion {
       .adoption-btn {
         gap: 1rem;
+				.transparent-btn {
+					order: 1;
+				}
       }
       .transparent-btn {
         i {
@@ -19,6 +22,37 @@ section#adoption {
         width: 400px;
         margin-block: 25px;
       }
+    }
+  }
+}
+
+section#adoption {
+  .container {
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 500px;
+      left: 0px;
+      width: 700px;
+      z-index: -10;
+      background: url(../../Monito-images/adoption1.png) no-repeat left 100%, $mon-yellow;
+    }
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0px;
+			right: 0;
+      left: 530px;
+      width: 700px;
+      // height: 100px;
+      z-index: -11;
+      background: url(../../Monito-images/adoption2.png) no-repeat right 100%, $mon-yellow;
     }
   }
 }
