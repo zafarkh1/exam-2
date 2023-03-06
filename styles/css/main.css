@@ -1225,6 +1225,11 @@ footer#footer .container .footer-nav .icons i {
   section#showcase .container .portion p {
     width: 310px;
   }
+  section#showcase .container .portion img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+  }
   section#morefriend {
     display: none;
   }
@@ -1279,7 +1284,7 @@ footer#footer .container .footer-nav .icons i {
     width: 340px;
   }
   footer#footer {
-    width: 370px;
+    width: 100%;
   }
   footer#footer .container .footer-bottom, footer#footer .container .footer-bottom {
     width: 340px;
