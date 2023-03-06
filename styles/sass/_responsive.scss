@@ -637,6 +637,68 @@
       }
     }
   }
+	  section#knowledge {
+		padding-left: 0px;
+		width: 370px;
+    .container {
+				width: 360px;
+      padding-left: 0px;
+      .grid-knowledge {
+				margin-left: -1rem;
+				padding-left: 0rem;
+        .card-knowledge {
+					width: 350px;
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+					&.mol {
+						img {
+							width: 350px;
+						}
+						p {
+							width: 340px;
+						}
+					}
+					&.messi {
+						h5 {
+							width: 340px;
+						}
+						img {
+							width: 350px;
+						}
+						p {
+							width: 340px;
+						}
+					}
+        }
+      }
+    }
+  }
+	footer#footer {
+		width: 370px;
+		.container {
+			.footer-bottom, .footer-bottom {
+				width: 340px;
+			}
+			.form {
+				h4 {
+					margin-left: 0rem;
+				}
+				width: 340px;
+				.inp-but {
+					width: 320px;
+					input, .blue-btn {
+						width: 300px;
+					}
+					button.blue-btn {
+						padding: 14px;
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 400px) {
@@ -688,7 +750,7 @@
       .form {
         max-width: 0 auto;
         flex-direction: column;
-        width: 360px;
+        width: 380px;
         padding: 1rem;
         gap: 1rem;
         h4 {
@@ -735,6 +797,65 @@
       }
     }
   }
+	  section#knowledge {
+		padding-left: 0px;
+		width: 370px;
+    .container {
+				width: 360px;
+      padding-left: 0px;
+      .grid-knowledge {
+				margin-left: -1rem;
+				padding-left: 0rem;
+        .card-knowledge {
+					width: 350px;
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+					&.mol {
+						img {
+							width: 350px;
+						}
+						p {
+							width: 340px;
+						}
+					}
+					&.messi {
+						h5 {
+							width: 340px;
+						}
+						img {
+							width: 350px;
+						}
+						p {
+							width: 340px;
+						}
+					}
+        }
+      }
+    }
+  }
+	footer#footer {
+		width: 370px;
+		.container {
+			.form {
+				h4 {
+					margin-left: 0rem;
+				}
+				width: 340px;
+				.inp-but {
+					width: 320px;
+					input, .blue-btn {
+						width: 300px;
+					}
+					button.blue-btn {
+						padding: 14px;
+						width: 300px;
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (max-width: 380px) {

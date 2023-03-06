@@ -770,7 +770,7 @@ footer#footer .container .footer-nav .icons i {
     font-size: 2.5rem;
   }
   section#showcase .container .showcase-btn .transparent-btn,
-section#showcase .container .showcase-btn .blue-btn {
+  section#showcase .container .showcase-btn .blue-btn {
     padding: 1rem 2.5rem;
     font-size: 1.2rem;
   }
@@ -1094,7 +1094,7 @@ section#showcase .container .showcase-btn .blue-btn {
     width: 430px;
   }
   section#showcase .container .portion .showcase-btn .transparent-btn,
-section#showcase .container .portion .showcase-btn .blue-btn {
+  section#showcase .container .portion .showcase-btn .blue-btn {
     padding: 1rem 2rem;
     font-size: 1rem;
   }
@@ -1114,7 +1114,7 @@ section#showcase .container .portion .showcase-btn .blue-btn {
     font-size: 0.8rem;
   }
   section#morefriend .container .portion.bottom .morefriend-btn .transparent-btn,
-section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
+  section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     padding: 0.5rem 1.5rem;
     font-size: 0.7rem;
   }
@@ -1244,6 +1244,62 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
   section#knowledge .container .grid-knowledge .card-knowledge.messi {
     display: block;
   }
+  section#knowledge {
+    padding-left: 0px;
+    width: 370px;
+  }
+  section#knowledge .container {
+    width: 360px;
+    padding-left: 0px;
+  }
+  section#knowledge .container .grid-knowledge {
+    margin-left: -1rem;
+    padding-left: 0rem;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol p {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi h5 {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi p {
+    width: 340px;
+  }
+  footer#footer {
+    width: 370px;
+  }
+  footer#footer .container .footer-bottom, footer#footer .container .footer-bottom {
+    width: 340px;
+  }
+  footer#footer .container .form {
+    width: 340px;
+  }
+  footer#footer .container .form h4 {
+    margin-left: 0rem;
+  }
+  footer#footer .container .form .inp-but {
+    width: 320px;
+  }
+  footer#footer .container .form .inp-but input, footer#footer .container .form .inp-but .blue-btn {
+    width: 300px;
+  }
+  footer#footer .container .form .inp-but button.blue-btn {
+    padding: 14px;
+    width: 300px;
+  }
 }
 @media (max-width: 400px) {
   .container {
@@ -1289,7 +1345,7 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 360px;
+    width: 380px;
     padding: 1rem;
     gap: 1rem;
   }
@@ -1349,6 +1405,59 @@ section#morefriend .container .portion.bottom .morefriend-btn .blue-btn {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+  }
+  section#knowledge {
+    padding-left: 0px;
+    width: 370px;
+  }
+  section#knowledge .container {
+    width: 360px;
+    padding-left: 0px;
+  }
+  section#knowledge .container .grid-knowledge {
+    margin-left: -1rem;
+    padding-left: 0rem;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.mol p {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi h5 {
+    width: 340px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi img {
+    width: 350px;
+  }
+  section#knowledge .container .grid-knowledge .card-knowledge.messi p {
+    width: 340px;
+  }
+  footer#footer {
+    width: 370px;
+  }
+  footer#footer .container .form {
+    width: 340px;
+  }
+  footer#footer .container .form h4 {
+    margin-left: 0rem;
+  }
+  footer#footer .container .form .inp-but {
+    width: 320px;
+  }
+  footer#footer .container .form .inp-but input, footer#footer .container .form .inp-but .blue-btn {
+    width: 300px;
+  }
+  footer#footer .container .form .inp-but button.blue-btn {
+    padding: 14px;
+    width: 300px;
   }
 }
 @media (max-width: 380px) {
